@@ -1,0 +1,116 @@
+# Vitesse Dark theme for Helix
+# Converted from VS Code theme by antfu
+
+
+"ui.background" = { bg = "black" }
+"ui.background.separator" = { fg = "gray" }
+"ui.text" = { fg = "default" }
+"ui.text.focus" = { fg = "white" }
+"ui.menu" = { fg = "white", bg = "black" }
+"ui.menu.selected" = { fg = "white", bg = "#181818" }
+"ui.menu.scroll" = { fg = "light-gray" }
+"ui.linenr" = { fg = "light-gray" }
+"ui.linenr.selected" = { fg = "white", modifiers = ["bold"] }
+"ui.popup" = { fg = "white", bg = "black" }
+"ui.window" = { fg = "#191919" }
+"ui.selection" = { bg = "white" }
+"comment" = { fg = "#758575dd" }
+"ui.statusline" = { fg = "#bfbaaa", bg = "black" }
+"ui.statusline.inactive" = { fg = "#959da5", bg = "black" }
+"ui.statusline.normal" = { fg = "black", bg = "blue" }
+"ui.statusline.insert" = { fg = "black", bg = "green" }
+"ui.statusline.select" = { fg = "black", bg = "magenta" }
+"ui.help" = { fg = "white", bg = "black" }
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-yellow", underline = { color = "light-yellow", style = "line" } }
+"ui.cursor.primary" = { modifiers = ["reversed", "slow_blink"] }
+"ui.cursor.secondary" = { modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "#181818" }
+"ui.cursorline.secondary" = { bg = "#181818" }
+"ui.cursorcolumn.primary" = { bg = "#181818" }
+"ui.cursorcolumn.secondary" = { bg = "#181818" }
+"ui.virtual.ruler" = { bg = "#191919" }
+"ui.virtual.whitespace" = { fg = "#ffffff15" }
+"ui.virtual.indent-guide" = { fg = "#ffffff15" }
+"ui.virtual.inlay-hint" = { fg = "#666666", bg = "#181818" }
+"ui.virtual.inlay-hint.parameter" = { fg = "#666666", bg = "#181818" }
+"ui.virtual.inlay-hint.type" = { fg = "#666666", bg = "#181818" }
+"ui.virtual.wrap" = { fg = "gray" }
+"ui.virtual.jump-label" = { fg = "blue", modifiers = ["bold", "underlined"] }
+
+"variable" = { fg = "#bd976a" }
+"constant.numeric" = { fg = "#4C9A91" }
+"constant" = { fg = "#c99076" }
+"attribute" = { fg = "#bd976a" }
+"type" = { fg = "#5DA994" }
+"string" = { fg = "#c98a7d" }
+"variable.other.member" = { fg = "#b8a965" }
+"constant.character.escape" = { fg = "#e6cc77" }
+"function" = { fg = "#80a665" }
+"constructor" = { fg = "#4d9375" }
+"special" = { fg = "#6394bf" }
+"keyword" = { fg = "#4d9375" }
+"label" = { fg = "#80a665" }
+"namespace" = { fg = "#db889a" }
+
+"markup.heading" = { fg = "#4d9375", modifiers = ["bold"] }
+"markup.list" = { fg = "#d4976c" }
+"markup.bold" = { fg = "default", modifiers = ["bold"] }
+"markup.italic" = { fg = "default", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "#c98a7d", underline = { color = "#c98a7d", style = "line" } }
+"markup.link.text" = { fg = "#c98a7d" }
+"markup.quote" = { fg = "#5d99a9" }
+"markup.raw" = { fg = "#4d9375" }
+"markup.normal" = { fg = "blue" }
+"markup.insert" = { fg = "green" }
+"markup.select" = { fg = "magenta" }
+
+"diff.plus" = { fg = "#85e89d" }
+"diff.delta" = { fg = "#6394bf" }
+"diff.delta.moved" = { fg = "#79b8ff" }
+"diff.minus" = { fg = "#fdaeb7" }
+
+"ui.gutter" = { bg = "black" }
+"info" = { fg = "#6394bf" }
+"hint" = { fg = "#666666" }
+"debug" = { fg = "#666666" }
+"warning" = { fg = "#d4976c" }
+"error" = { fg = "#cb7676" }
+
+"diagnostic.info" = { underline = { color = "#6394bf", style = "dotted" } }
+"diagnostic.hint" = { underline = { color = "#666666", style = "double_line" } }
+"diagnostic.debug" = { underline = { color = "#666666", style = "dashed" } }
+"diagnostic.warning" = { underline = { color = "#d4976c", style = "curl" } }
+"diagnostic.error" = { underline = { color = "#cb7676", style = "curl" } }
+
+# Additional syntax highlights
+"operator" = { fg = "#cb7676" }
+"punctuation" = { fg = "#666666" }
+"punctuation.delimiter" = { fg = "#666666" }
+"punctuation.bracket" = { fg = "#666666" }
+"string.regexp" = { fg = "#c4704f" }
+"module" = { fg = "#db889a" }
+"tag" = { fg = "#4d9375" }
+"property" = { fg = "#b8a965" }
+"boolean" = { fg = "#4d9375" }
+
+[palette]
+default = "#dbd7caee"
+black = "#121212"
+red = "#cb7676"
+green = "#4d9375"
+yellow = "#e6cc77"
+blue = "#6394bf"
+magenta = "#d9739f"
+cyan = "#5eaab5"
+gray = "#666666"
+light-red = "#cb7676"
+light-green = "#4d9375"
+light-yellow = "#e6cc77"
+light-blue = "#6394bf"
+light-magenta = "#d9739f"
+light-cyan = "#5eaab5"
+light-gray = "#dedcd550"
+white = "#dbd7caee"
+bright-white = "#ffffff"

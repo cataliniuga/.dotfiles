@@ -47,9 +47,11 @@
 "variable.other.member" = { fg = "#b8a965" }
 "constant.character.escape" = { fg = "#e6cc77" }
 "function" = { fg = "#80a665" }
-"constructor" = { fg = "#4d9375" }
+"constructor" = { fg = "#6872ab" }
 "special" = { fg = "#6394bf" }
 "keyword" = { fg = "#4d9375" }
+"keyword.storage.modifier" = { fg = "#cb7676" }
+"keyword.function" = { fg = "#cb7676" }
 "label" = { fg = "#80a665" }
 "namespace" = { fg = "#db889a" }
 
@@ -84,8 +86,7 @@
 "diagnostic.warning" = { underline = { color = "#d4976c", style = "curl" } }
 "diagnostic.error" = { underline = { color = "#cb7676", style = "curl" } }
 
-# Additional syntax highlights
-"operator" = { fg = "#cb7676" }
+"operator" = { fg = "#666666" }
 "punctuation" = { fg = "#666666" }
 "punctuation.delimiter" = { fg = "#666666" }
 "punctuation.bracket" = { fg = "#666666" }
